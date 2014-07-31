@@ -1,0 +1,17 @@
+body {
+	max-width: 50em;
+	min-width: 30em;
+	margin: auto;
+}
+body.colorCream { background-color: #FFFFCC; color:#000000;}
+body.colorCream ul>li {color:#680000;}
+body.colorCream ul>li>ul>li {color: #700000;}
+body.colorCream ul>li>ul>li>ul>li { color: #980000;}
+body.colorCream ul>li>ul>li>ul>li>ul>li {color: #A80000;}
+body.colorCream ul>li>ul>li>ul>li>ul>li>ul>li { color:#C00000;}
+body.colorCream ol>li {color:#CC6600;}
+body.colorCream ol>li>ol>li { color:#CC6666;}
+body.colorCream ol>li>ol>li>ol>li {color:#CC9966;}
+body.colorCream ol>li>ol>li>ul>li {color:#FF3300;}
+
+

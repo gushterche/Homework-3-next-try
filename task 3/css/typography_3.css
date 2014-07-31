@@ -1,0 +1,69 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font: 12px/1.5 Verdana, sanf-serif; 
+	text-align: justify;
+}
+h1, h2, h3, h4, h5, h6 {
+		line-height: 1.2em;
+		padding:0.5em 0.3em 0.3em 0;
+
+}
+
+h1 {font-size: 2.2em;border-bottom: solid 3px #CCC; }
+h2 {font-size: 2.0em;border-bottom: solid 3px #CCC; }
+h3 {font-size: 1.7em; }
+h4 {font-size: 1.6em; }
+h5 {font-size: 1.5em; }
+h6 {font-size: 1.3em; }
+
+
+ul, ol, li {
+	margin-left: 1.5em;
+	padding-bottom: 0;
+	margin-bottom:  0;
+}
+
+ul>li {
+	list-style: disc;
+}
+ul>li>ul>li {
+	list-style: circle;
+}
+ul>li>ul>li>ul>li {
+	list-style: disc;
+	font-style:italic;
+}
+ul>li>ul>li>ul>li>ul>li {
+	list-style: circle;
+}
+ul>li>ul>li>ul>li>ul>li>ul>li {
+	list-style: square;
+}
+ol>li {
+	list-style: upper-roman;
+}
+ol>li>ol>li {
+	list-style: lower-roman;
+}
+ol>li>ol>li>ol>li {
+	list-style: upper-alpha;
+	
+}
+ol>li>ol>li>ol>li>ol>li {
+	list-style: lower-alpha;
+	font-style:italic;
+}
+ol>li>ol>li>ul>li {
+	list-style: disc;
+	
+}
+ol>li>ol>li>ul>li>ul>li {
+	list-style: circle;
+	font-style:italic;
+}
+ol>li>ol>li>ul>li>ul>li>ol>li {
+	list-style: lower-alpha;
+}

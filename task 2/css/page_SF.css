@@ -1,0 +1,16 @@
+body {
+	max-width: 50em;
+	min-width: 30em;
+	margin: auto;
+}
+body.colorCream { background-color: #FFFFCC; color:#CC9900;}
+body.colorCream a:link  {color:#990000;}
+body.colorCream a:hover {color:#FF0000;}
+body.colorCream a:visited {color:#669966;}
+body.colorCream table { background-color:#F8F8F8; border-color:#FFCC66; color:#CC9900; }
+
+body.colorGreen { background-color: #339900; color:#CCFF33;}
+body.colorGreen a:link  {color:#66FFFF;}
+body.colorGreen a:hover {color:#FF0000;}
+body.colorGreen a:visited {color:#CCFFFF;}
+body.colorGreen table { background-color:#FFFFCC; border-color:#336600; color:#339933; }

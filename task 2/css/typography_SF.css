@@ -1,0 +1,94 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font: 12px/1.5 Verdana, sanf-serif; 
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		line-height: 1.2em;
+		padding:2em 0.3em 0.3em 0;
+}
+
+h1 {font-size: 2.2em;border-bottom: solid 3px #CCC; }
+h2 {font-size: 2.0em;border-bottom: solid 3px #CCC; }
+h3 {font-size: 1.7em; }
+h4 {font-size: 1.6em; }
+h5 {font-size: 1.5em; }
+h6 {font-size: 1.3em; }
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+	margin-top: 0.5em;
+}
+
+ul, ol, li{
+	margin-left: 1.5em;
+	padding-bottom: 0;
+	margin-bottom:  0;
+}
+ol li {
+	list-style: decimal;
+}
+ul li {
+	list-style: disc;
+}
+
+p + ol, p + ul {
+	padding-bottom: 0;
+	margin-bottom:  0;
+}
+
+ul > li > ul > li {
+	list-style: disc;
+}
+
+ul > li > ul> li > ul > li {
+	list-style: disc;
+}
+span.sub {
+	font-size: 0.7em;
+	vertical-align:bottom;
+	margin:0;
+	padding:0;
+}
+
+table{
+	margin:1em;
+	padding:1em;
+	border:solid 2px; 
+	float:right;
+	max-width:20em;
+}
+
+table+p, div+p {
+	margin-top: 2em;
+}
+
+p+table {
+	margin-top: 2em;
+}
+
+th, td, tr {
+	padding:1em;
+	margin:1em;
+} 
+th{
+	font: 2.0em;
+}
+td, tr {
+	font-size: 0.9em;
+}
+
+img {
+	padding:0;
+	margin: 0;
+}
+
+a {
+	font-style:italic;
+	padding:0;
+	margin:0;
+}

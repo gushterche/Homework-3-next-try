@@ -1,0 +1,79 @@
+#mw-navigation,
+.toctoggle,
+.metadata.topicon.nopopups,
+.NavContent,
+.hatnote,
+#jump-to-nav,
+.metadata.plainlinks.mbox-small,
+table.navbox
+{display: none;}
+
+.infobox.geography.vcard {
+	width:40%;
+	float: right;
+}
+
+.infobox.geography.vcard img {
+	max-width: 23em;
+}
+
+.mergedbottomrow {
+	font-size: 10px !important;
+}
+
+.thumb.tleft {
+	float:left;
+	margin-right: 1em;
+	border: 0.1em solid;
+	text-align: center;
+	vertical-align: center;
+}
+
+.thumb.tright {
+	float: right;
+	margin: 1em;
+	border: 0.1em solid;
+	text-align: center;
+	vertical-align: center;
+}
+
+.thumb.tnone {
+	margin: 1em;
+	border: 0.1em solid;
+	text-align: center;
+	vertical-align: center;
+}
+
+.qoutebox {
+	clear:both;
+	margin-right: 1em;
+	border: 0.1em solid;
+	text-align: center;
+	vertical-align: center;
+}
+table.toccolours {
+	float: right;
+	margin: 1em !important;
+	border: 0.1em solid;
+}
+
+.thumbinner {
+	margin:0.5em;
+}
+
+.toc {
+	background: #FFF;
+	border: 2px solid black;
+	margin-top: 3em;
+	float:right;
+	width: 50%;
+}
+h1+ div #bodycontent, h2+div.thumb.tnone, h2+div.thumb.tright, h2+div.thumb.tleft, h2+table.toccolours {
+	padding-top: 0.5em;
+}
+
+table.infobox.geography.vcard tr td{
+	max-width: 15em;
+	padding:0em;
+	margin:0em;
+}
